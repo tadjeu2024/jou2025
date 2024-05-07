@@ -1,0 +1,284 @@
+    img {
+    height: 550px;
+    width: 1250px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: pink;
+    font-size: 20px;
+}
+
+nav ul {
+    text-align: center; 
+}
+
+nav li {
+    display: inline-block; 
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    padding: 40px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav li a:hover {
+    background-color: blue;
+}
+
+nav li a.active {
+    background-color: blue;
+}
+
+/* Style du contenu */
+main {
+    padding: 30px;
+}
+
+ 
+.logo {
+  position: absolute;
+  top: 110px;
+  left: 10px; 
+  width: 230px;
+  height: auto;
+}
+ 
+section.active {
+    display: block;
+}
+
+main section.active {
+  display: block;
+}
+
+nav li a.active {
+  font-weight: bold;
+}
+ 
+.texte-rouge {
+    color: blue;
+    font-size: 25px;
+    margin-left: 250px; 
+    margin-right: 250px;
+}
+.centered-text {
+    text-align: center;
+    color: red;
+    font-size: 35px;
+  }
+
+  .centered-ecrit {
+    text-align: center;
+    color: magenta;
+    font-size: 30px;
+  }
+
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+  }
+  
+  .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: powderblue;
+    height: 300px;
+  }
+  .photo img {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+   
+  .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+    
+    .photo-container img {
+      width: 220px; /* Ajustez la largeur selon vos besoins */
+      height: 220px; /* Ajustez la hauteur selon vos besoins */
+      object-fit: cover;
+      margin: 3px; /* Marge entre les photos */
+      border: 1px solid #000; /* Bordure autour des photos */
+    }
+
+  
+  .image-speciale {
+    height: 600px;
+    width: 1210px;
+    
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 20px;
+}
+   
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 130%; /* Ratio d'aspect 16:9 pour une vidéo responsive */
+    }
+
+    .video-wrapper video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+
+ 
+.grid-container video {
+    width: 700px;
+    height: auto;
+}
+ 
+.grid-container img {
+  width: 700px;
+  height: auto;
+}
+ 
+
+.rectangle {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rectangle img {
+  width: 33.33%; /* Pour diviser l'espace en 3 colonnes */
+  height: auto;
+}
+.texte-purple {
+  color: purple;
+  font-size: 35px;
+  }
+  .texte-gray {
+    color: green;
+    font-size: 22px;
+    }
+    .texte-violet {
+      color: darkgreen;
+      font-size: 35px;
+    }
+
+    .image-container img,
+    .video-container video {
+        width: 350px;
+        height: auto;
+    }
+     .text-container {
+            text-align: left;
+        }
+          
+     .photo-grid-new img {
+  width: 1300px;
+  height: 700px;
+}
+.photo-grid-new {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} 
+ .social-media-links {
+  position: absolute;
+  top:23%; /* Ajustez la valeur selon votre préférence pour le positionnement vertical */
+  left:85%; /* Ajustez la valeur selon votre préférence pour le positionnement horizontal */
+  transform: translate(-50%, -50%);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.social-media-links li {
+  margin: 1px; /* Ajustez la valeur de la marge si nécessaire */
+}
+
+.social-media-links img {
+  width: 70px; /* Ajustez la valeur de la largeur de l'icône si nécessaire */
+  height: auto;
+  
+}
+
+
+ /* styles.css */
+
+footer {
+  background-color: violet;
+  color: white;
+  padding: 20px;
+   display: flex;
+  justify-content: space-between;
+}
+ 
+ /* styles.css */
+
+/* Balise span pour le premier texte */
+span.first-text {
+  color: blue;
+  font-size: 25px;
+}
+
+/* Balise span pour l'espace entre le premier et le deuxième texte */
+span.space1 {
+  margin-right: 95px;
+}
+
+/* Balise span pour le deuxième texte */
+span.second-text {
+  color: blue;
+  font-size: 25px;
+}
+
+/* Balise span pour l'espace entre le deuxième et le troisième texte */
+span.space2 {
+  margin-right: 65px;
+}
+
+/* Balise span pour le troisième texte */
+span.third-text {
+  color: red;
+  font-size: 25px;
+}
+
+   .video-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 130%; /* Ratio d'aspect 16:9 pour une vidéo responsive */
+    }
+
+    .video-wrapper video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    
